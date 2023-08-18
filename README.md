@@ -1,2 +1,2 @@
 # vendinha-coltecana
-A site to connect small sellers at Coltec/UFMG.
+A site to connect small sellers and clients at Coltec/UFMG.
