@@ -36,28 +36,3 @@ $('div#registro button').on('click', () => sendData('registro'))
 $('div#pesquisa-vendedor button').on('click', () => retrieveData('vendedor'))
 $('div#pesquisa-produto button').on('click', () => retrieveData('produto'))
 $('div#pesquisa-registro button').on('click', () => retrieveData('registro'))
-
-/*$('div#pesquisa-vendedor button').on('click', () =>
-$.get(url,
-JSON.stringify
-({
-	tabela: 'vendedor',
-	chave:
-	{
-		email: $('div#pesquisa-vendedor input#email').val()
-	}
-}),
-(res) =>
-{
-	res = JSON.parse(res)
-
-	let informacoes = $('ul#resultado li span')
-
-	informacoes[0].innerText = res.email
-	informacoes[1].innerText = res.senha
-	informacoes[2].innerText = res.nome
-	informacoes[3].innerText = res.slogan
-	informacoes[4].innerText = res.regularizado
-	
-}))
-*/
