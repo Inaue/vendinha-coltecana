@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+	<div id="vendedor">
+		<h1>Vendedor</h1>
+		<label for="email">email</label>
+		<input type='email' id="email"><br>
+		<label for="senha">senha</label>
+		<input type='password' id="senha"><br>
+		<label for="nome">nome</label>
+		<input type='text' id="nome"><br>
+		<label for="slogan">slogan</label>
+		<input type='text' id="slogan"><br>
+		<input type='hidden' id="regularizado" value="false">
+
+		<button>enviar</button>
+	</div>
+
+	<div id="produto">
+		<h1>Produto</h1>
+		<label for="vendedor">vendedor</label>
+		<input type='text' id="vendedor"><br>
+		<label for="nome">nome</label>
+		<input type='text' id="nome"><br>
+		<label for="descricao">descricao</label>
+		<input type='text' id="descricao"><br>
+		<label for="preco">preco</label>
+		<input type='number' step='0.01' id="preco"><br>
+
+		<button>enviar</button>
+	</div>
+
+	<div id="registro">
+		<h1>Registro</h1>
+		<label for="vendedor">vendedor</label>
+		<input type='text' id="vendedor"><br>
+		<label for="produto">produto</label>
+		<input type='text' id="produto"><br>
+		<label for="quantidade">quantidade</label>
+		<input type='number' id="quantidade"><br>
+		<label for="dataHora">data e hora</label>
+		<input type='datetime-local' id="dataHora"><br>
+
+		<button>enviar</button>
+	</div>
+
+	<div id="pesquisa-vendedor">
+		<h1>Pesquisar Vendedor</h1>
+		<label for="email">email</label>
+		<input type='email' id="email"><br>
+
+		<button>pesquisar</button>
+	</div>
+
+	<div id="pesquisa-produto">
+		<h1>Pesquisar Produto</h1>
+		<label for="vendedor">vendedor</label>
+		<input type='text' id="vendedor"><br>
+		<label for="nome">nome</label>
+		<input type='text' id="nome"><br>
+
+		<button>pesquisar</button>
+	</div>
+
+	<div id="pesquisa-registro">
+		<h1>Pesquisar Registro</h1>
+		<label for="vendedor">vendedor</label>
+		<input type='text' id="vendedor"><br>
+
+		<button>pesquisar</button>
+	</div>
+
+	<ul id="resultado">
+		<li><b>email: </b><span></span></li>
+		<li><b>senha: </b><span></span></li>
+		<li><b>nome: </b><span></span></li>
+		<li><b>slogan: </b><span></span></li>
+		<li><b>regularizado: </b><span></span></li>
+	</ul>
+
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	<script src='./index.js'></script>
+</body>
+</html>
